@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <fo:layout-master-set>
+    <fo:simple-page-master master-name="A4" page-height="29.7cm" page-width="21cm">
+      <fo:region-body margin-left="22mm" margin-right="28mm" margin-top="15mm" margin-bottom="25mm"/>
+      <fo:region-after extent="20mm"/>
+    </fo:simple-page-master>
+  </fo:layout-master-set>
+  <fo:page-sequence master-reference="A4" font-family="Verdana">
+    <fo:static-content flow-name="xsl-region-after">
+      <fo:block margin-left="22mm" margin-right="28mm" font-size="8.1pt" text-align-last="justify">
+	    Page <fo:page-number/> –
+	    Curriculum vitæ of Guillaume Galy<fo:leader leader-pattern="space"/><fo:inline font-family="Courier New" font-weight="bold">http://cactus.rulez.org/cv/</fo:inline></fo:block>
+    </fo:static-content>
+    <fo:flow flow-name="xsl-region-body"><fo:block font-size="16.2pt" font-weight="bold" space-after="2mm" width="100%" text-align="start">Guillaume Galy</fo:block><fo:block-container position="absolute" left="131.84mm" top="23mm" width="28.16mm" height="33mm" border-width="0.5pt" border-style="solid" border-color="black"><fo:block><fo:external-graphic src="http://www.cactus/photo" width="28.16mm" height="33mm"/></fo:block></fo:block-container>
+  <fo:table table-layout="fixed" width="100%"><fo:table-column column-number="1"/><fo:table-body><fo:table-row keep-with-next="always"><fo:table-cell><fo:block font-size="12.6pt" font-weight="bold" space-after="2mm" border-bottom-width=".8pt" border-color="black" border-bottom-style="solid" space-before="3mm" keep-with-next.within-page="always">Personal information</fo:block></fo:table-cell></fo:table-row><fo:table-row><fo:table-cell><fo:block font-size="9pt"><fo:table table-layout="fixed" keep-together="always"><fo:table-column column-width="40mm"/><fo:table-column column-width="120mm"/><fo:table-body start-indent="3mm"><fo:table-row keep-together="always"><fo:table-cell padding-bottom="2mm"><fo:block text-align="start" font-style="italic">Name:</fo:block></fo:table-cell><fo:table-cell padding-bottom="2mm" padding-left="2mm"><fo:block text-align="justify">Galy,
+     Guillaume</fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table><fo:block font-size="9pt"><fo:table table-layout="fixed" keep-together="always"><fo:table-column column-width="40mm"/><fo:table-column column-width="120mm"/><fo:table-body start-indent="3mm"><fo:table-row keep-together="always"><fo:table-cell padding-bottom="2mm"><fo:block text-align="start" font-style="italic">E-mail:</fo:block></fo:table-cell><fo:table-cell padding-bottom="2mm" padding-left="2mm"><fo:block text-align="justify">guilgaly@gmail.com</fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table></fo:block>
+
+  <fo:table table-layout="fixed" width="100%"><fo:table-column column-number="1"/><fo:table-body><fo:table-row keep-with-next="always"><fo:table-cell><fo:block font-size="12.6pt" font-weight="bold" space-after="2mm" border-bottom-width=".8pt" border-color="black" border-bottom-style="solid" space-before="3mm" keep-with-next.within-page="always">Motivation</fo:block></fo:table-cell></fo:table-row><fo:table-row><fo:table-cell><fo:block margin-left="3mm" text-align="justify" font-size="9pt">
+      After seven years of developing high-quality Free Software,
+      contributing to projects with hundreds of developers from all
+      around the globe, using a wide array of technologies, all the
+      while keeping an eye on the bleeding edge, I am now ready to
+      take a leap into commercial software development.
+    </fo:block></fo:table-cell></fo:table-row></fo:table-body></fo:table>
+<fo:block space-before="5mm" font-size="9pt">
+	    Visit
+	    <fo:inline font-family="Courier New" font-weight="bold">http://cactus.rulez.org/cv/</fo:inline>
+	    for an online version of this CV, complete with hyperlinks to all the referenced projects.
+	  </fo:block></fo:flow>
+  </fo:page-sequence>
+</fo:root>
