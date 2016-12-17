@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<cv uri="http://cactus.rulez.org/cv/">
+<cv uri="https://github.com/guilgaly/cv-xsl">
   <data>
     <name>
       <firstname>Guillaume</firstname>
       <lastname>Galy</lastname>
     </name>
-    <email smtp="guilgaly@gmail.com"/>
+    <contact>
+      <email smtp="guilgaly@gmail.com"/>
+      <telephone>+33 (0) 6 75 20 93 72</telephone>
+    </contact>
+    <address>
+      <street>54 rue de la Convention, App. 44</street>
+      <zip>94270</zip>
+      <city>Le Kremlin-Bicêtre</city>
+      <country>France</country>
+    </address>
+    <onlinepresence name="Linkedin" uri="https://fr.linkedin.com/in/guilgaly "/>
+    <onlinepresence name="Github" uri="https://github.com/guilgaly"/>
+    <onlinepresence name="Stack Overflow" uri="https://stackoverflow.com/users/3801695"/>
   </data>
-
   <section>
     <title>Motivation</title>
-    <desc>
-      After seven years of developing high-quality Free Software,
-      contributing to projects with hundreds of developers from all
-      around the globe, using a wide array of technologies, all the
-      while keeping an eye on the bleeding edge, I am now ready to
-      take a leap into commercial software development.
-    </desc>
+    <desc>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada ut erat et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque neque leo, vestibulum in tellus nec, eleifend tempus nisl. Fusce non elit nulla. Donec nec fermentum sem. Cras mattis, ipsum at pharetra hendrerit, tellus sem aliquet orci, sed consectetur arcu erat vel sem. Sed massa erat, luctus quis ante a, sollicitudin auctor arcu. Duis malesuada mi et mi volutpat rutrum. Proin laoreet massa dictum arcu feugiat, eu finibus turpis semper. Sed eget nunc at elit condimentum ullamcorper nec varius elit. Aliquam faucibus auctor bibendum. Fusce vestibulum quam dui, sed bibendum velit ultricies eget. Aliquam sagittis sagittis turpis ut tincidunt. Vestibulum ligula ipsum, euismod in volutpat at, dapibus sed ex.</desc>
+  </section>
+  <section>
+    <title>Expérience professionnelle</title>
+    <item>
+      <title>2013 - Aujourd'hui</title>
+      <desc>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed massa sit amet eros malesuada rutrum ut at massa. Quisque ipsum dui, tincidunt suscipit leo pretium, volutpat auctor est. Etiam ligula augue, ornare eget lectus quis, pharetra imperdiet odio. Nunc vulputate, elit aliquam viverra ornare, tellus felis auctor lacus, eu aliquet tellus lorem sed sem. Mauris semper tortor a risus scelerisque eleifend. Morbi luctus metus tortor. Nullam ut feugiat justo. Duis pulvinar finibus convallis. Etiam ornare bibendum efficitur. Pellentesque elementum metus sed blandit imperdiet. Morbi in massa vitae felis sodales vehicula. Aliquam consequat neque in erat rutrum fringilla. Morbi nec rutrum risus, ut tincidunt neque. </desc>
+    </item>
   </section>
 </cv>

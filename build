@@ -12,9 +12,9 @@ xsltproc --output target/tmp/cv-preprocessed.xml cv-preprocess.xsl cv-data.xml
 # Generate HTML output
 mkdir target/html
 cp cv.css target/html/cv.css
-xsltproc --output target/html/cv-html.html cv-html.xsl target/tmp/cv-preprocessed.xml
+xsltproc --output target/html/cv.html cv-html.xsl target/tmp/cv-preprocessed.xml
 
 # Generate PDF output
 mkdir target/pdf
 xsltproc --output target/tmp/cv-fo.fo cv-fo.xsl target/tmp/cv-preprocessed.xml
-fop target/tmp/cv-fo.fo target/pdf/cv-fo.pdf
+fop target/tmp/cv-fo.fo target/pdf/cv.pdf

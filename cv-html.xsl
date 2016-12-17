@@ -33,8 +33,7 @@
 	<h1 id="headline"><xsl:value-of select="$text-fullname"/></h1>
 
 	<p>
-	  You can <a href="cv.pdf">download a PDF</a> of this CV, ready for printing.
-	  <a href="http://cactus.rulez.org/projects/cv-xsl/">Read how it was made</a>.
+	  Vous pouvez <a href="../pdf/cv.pdf">télécharger un PDF</a> de ce CV, prêt à imprimer.
 	</p>
 	
 	<table width="100%">
