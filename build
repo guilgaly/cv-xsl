@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+cd "${0%/*}"
+
+# Cleanup target directory
+rm -r target
+mkdir target
+
+# Preprocessing stage (for personnal info section)
+xsltproc --output target/cv-preprocessed.xml cv-preprocess.xsl cv-data.xml
+
+# Generate HTML output
+cp cv.css target/cv.css
+xsltproc --output target/cv-html.html cv-html.xsl target/cv-preprocessed.xml
+
+# Generate PDF output
+xsltproc --output target/cv-fo.fo cv-fo.xsl target/cv-preprocessed.xml
+fop target/cv-fo.fo target/cv-fo.pdf
