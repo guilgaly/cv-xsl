@@ -14,7 +14,7 @@
   <xsl:param name="footer-size" select="0.9 * $base-size"/>
   
   <xsl:param name="item-indent" select="3"/> <!-- in milimeters -->
-  <xsl:param name="item-spacing" select="2"/> <!-- in milimeters -->
+  <xsl:param name="item-spacing" select="1"/> <!-- in milimeters -->
   <xsl:param name="margin-horiz" select="25"/>
   <xsl:param name="margin-vert" select="15"/>
 
@@ -56,16 +56,18 @@
             margin-right="{$margin-right}mm"
             font-size="{$footer-size}pt"
             text-align-last="justify">
-        Page <fo:page-number /> &#8211;
         <xsl:value-of select="$text-cv"/> de <xsl:value-of select="$text-fullname"/>
-        <fo:leader leader-pattern="space" />
-        <fo:inline font-family="Courier" font-weight="bold"><xsl:value-of select="/cv/@uri"/></fo:inline>
+        <fo:leader leader-pattern="space" />&#8211;<fo:leader leader-pattern="space" />
+        Page <fo:page-number />
+        <fo:leader leader-pattern="space" />&#8211;<fo:leader leader-pattern="space" />
+        Code source : <fo:inline font-family="Courier"><xsl:value-of select="/cv/@uri"/></fo:inline>
+        
       </fo:block>      
     </fo:static-content>
 
       <fo:flow flow-name="xsl-region-body">
       <fo:block font-size="{$headline-size}pt" font-weight="bold" width="100%"
-            text-align="start" margin-bottom="2mm">
+            text-align="center" margin-bottom="2mm">
         <xsl:value-of select="$text-fullname"/>
       </fo:block>
       <!--
@@ -188,10 +190,10 @@
   <xsl:template match="list/item">
     <fo:list-item>
       <fo:list-item-label start-indent="{$item-indent}mm">
-    <fo:block>&#x2022;</fo:block>
+        <fo:block>&#x2022;</fo:block>
       </fo:list-item-label>
       <fo:list-item-body start-indent="{$item-indent*2}mm">
-    <fo:block><xsl:apply-templates/></fo:block>
+        <fo:block><xsl:apply-templates/></fo:block>
       </fo:list-item-body>
     </fo:list-item>
   </xsl:template>

@@ -24,10 +24,52 @@
     <desc>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada ut erat et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque neque leo, vestibulum in tellus nec, eleifend tempus nisl. Fusce non elit nulla. Donec nec fermentum sem. Cras mattis, ipsum at pharetra hendrerit, tellus sem aliquet orci, sed consectetur arcu erat vel sem. Sed massa erat, luctus quis ante a, sollicitudin auctor arcu. Duis malesuada mi et mi volutpat rutrum. Proin laoreet massa dictum arcu feugiat, eu finibus turpis semper. Sed eget nunc at elit condimentum ullamcorper nec varius elit. Aliquam faucibus auctor bibendum. Fusce vestibulum quam dui, sed bibendum velit ultricies eget. Aliquam sagittis sagittis turpis ut tincidunt. Vestibulum ligula ipsum, euismod in volutpat at, dapibus sed ex.</desc>
   </section>
   <section>
+    <title>Compétences principales</title>
+    <desc></desc>
+  </section>
+  <section>
     <title>Expérience professionnelle</title>
     <item>
       <title>2013 - Aujourd'hui</title>
-      <desc>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed massa sit amet eros malesuada rutrum ut at massa. Quisque ipsum dui, tincidunt suscipit leo pretium, volutpat auctor est. Etiam ligula augue, ornare eget lectus quis, pharetra imperdiet odio. Nunc vulputate, elit aliquam viverra ornare, tellus felis auctor lacus, eu aliquet tellus lorem sed sem. Mauris semper tortor a risus scelerisque eleifend. Morbi luctus metus tortor. Nullam ut feugiat justo. Duis pulvinar finibus convallis. Etiam ornare bibendum efficitur. Pellentesque elementum metus sed blandit imperdiet. Morbi in massa vitae felis sodales vehicula. Aliquam consequat neque in erat rutrum fringilla. Morbi nec rutrum risus, ut tincidunt neque. </desc>
+      <desc>RS2i</desc>
+    </item>
+  </section>
+  <section>
+    <title>Formations et certifications</title>
+    <item>
+      <title>02/2016</title>
+      <desc>Red Hat - EX421 Certificate of Expertise in Camel Development (Licence : 160-028-999)</desc>
+    </item>
+    <item>
+      <title>05/2015</title>
+      <desc>Coursera - Principles of Reactive Programming (Licence : 54R44UFH7K)</desc>
+    </item>
+    <item>
+      <title>12/2014</title>
+      <desc>Coursera - Programming Languages (Licence : P42K3DB3HH)</desc>
+    </item>
+    <item>
+      <title>06/2014</title>
+      <desc>Coursera - Functional Programming Principles in Scala (Licence : 89A4NVJN96)</desc>
+    </item>
+    <item>
+      <title>2012-2013</title>
+      <desc>AFPA Grenoble - Concepteur Développeur Informatique</desc>
+    </item>
+    <item>
+      <title>2007-2010</title>
+      <desc>ENSIACET (Toulouse) - Ingénieur chimiste</desc>
+    </item>
+  </section>
+  <section>
+    <title>Côté personnel</title>
+    <item>
+      <title>Projets open source</title>
+      <desc>Développement d'un outil de synchronisation de musique depuis iTunes, en Scala/Akka (avec ré-encodage, vérification des tags...). Objectif à terme : développer un gestionnaire de bibliothèque musicale en scala/Akka/ScalaFX.</desc>
+    </item>
+    <item>
+      <title>Loisirs</title>
+      <desc>Rôliste, passionné de science-fiction et de fantasy, joueur de badminton</desc>
     </item>
   </section>
 </cv>
