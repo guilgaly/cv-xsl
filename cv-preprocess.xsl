@@ -64,17 +64,6 @@
       </desc>
     </item>
   </xsl:template>
-
-  <xsl:template match="data/contact">
-    <item>
-      <title>Contact :</title>
-      <desc>
-        <a href="mailto:{email/@smtp}"><xsl:value-of select="email/@smtp"/></a>
-        |
-        <xsl:apply-templates select="telephone"/>
-      </desc>
-    </item>
-  </xsl:template>
   
   <xsl:template match="data/telephone">
     <item>
