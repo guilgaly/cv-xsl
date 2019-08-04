@@ -164,9 +164,24 @@
       <xsl:apply-templates/>
     </fo:block>
   </xsl:template>
+
+  <xsl:template match="item/addendum">
+    <fo:table-row keep-together="always">
+      <fo:table-cell padding-bottom="{$item-spacing}mm"
+          keep-together.within-column="always">
+        <fo:block />
+      </fo:table-cell>
+      <fo:table-cell padding-bottom="{$item-spacing}mm" padding-left="2mm"
+          keep-together.within-column="always">
+        <fo:block text-align="justify" font-style="italic">
+          <xsl:apply-templates/>
+        </fo:block>
+      </fo:table-cell>
+    </fo:table-row>
+  </xsl:template>
   
   <xsl:template match="section/item|subsection/item">
-    <fo:block font-size="{$text-size}pt">
+    <fo:block font-size="{$text-size}pt" margin-bottom="1mm">
       <fo:table table-layout="fixed" width="100%">
         <fo:table-column column-width="30mm"/>
         <fo:table-column column-width="{210 - 2 * $margin-horiz - 30}mm" />
@@ -183,6 +198,7 @@
               </fo:block>
             </fo:table-cell>
           </fo:table-row>
+          <xsl:apply-templates select="addendum"/>
         </fo:table-body>
       </fo:table>
     </fo:block>      

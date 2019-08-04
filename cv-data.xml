@@ -1,96 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cv uri="https://github.com/guilgaly/cv-xsl">
-  <data>
-    <name>
-      <firstname>Guillaume</firstname>
-      <lastname>Galy</lastname>
-    </name>
-    <telephone>+33 (0) 6 75 20 93 72</telephone>
-    <email smtp="guilgaly@gmail.com"/>
-    <address>
-      <street>54 rue de la Convention, App. 44</street>
-      <zip>94270</zip>
-      <city>Le Kremlin-Bicêtre</city>
-      <country>France</country>
-    </address>
-    <onlinepresence name="Linkedin" uri="https://fr.linkedin.com/in/guilgaly "/>
-    <onlinepresence name="Github" uri="https://github.com/guilgaly"/>
-    <onlinepresence name="Stack Overflow" uri="https://stackoverflow.com/users/3801695"/>
-  </data>
-  <section>
-    <title>Motivation</title>
-    <desc>Développeur passionné, je veux avant tout découvrir de nouvelles technologies et créer des systèmes informatiques robustes et fiables. Je m'intéresse tout particulièrement au langage Scala, à la tendance du reactive programming (autour d'Akka par exemple), et aux techniques pour améliorer la qualité du code et des processus de développement (tests automatisés, code reviews, intégration continue, etc.). J'ai déjà su progresser rapidement, en me voyant confier le lead technique sur mes derniers projets, mais je veux aller plus loin - idéalement au sein d'une petite structure travaillant en mode agile.</desc>
-  </section>
-  <section>
-    <title>Compétences principales</title>
-    <item>
-      <title>Langages</title>
-      <desc>Java, Scala, SQL, XML (XSL, XPath, XML Schema), Javascript, HTML, CSS</desc>
-    </item>
-    <item>
-      <title>Frameworks et librairies</title>
-      <desc>Spring (et Spring Boot), JEE (dont JMS, JSP...), Apache Camel, Jboss Fuse, TIBCO BusinessWorks, Akka, EBX5 (MDM)</desc>
-    </item>
-    <item>
-      <title>Concepts</title>
-      <desc>Enterprise Integration Patterns (ESB/EAI), SOA, functional programming, reactive programming, web services (REST/SOAP)</desc>
-    </item>
-    <item>
-      <title>Outils</title>
-      <desc>Eclipse (et Spring Tool Suite), Intellij IDEA, SVN, Git, Maven, SBT</desc>
-    </item>
-    <item>
-      <title>Langues</title>
-      <desc>Anglais (quasiment bilingue ; 990/990 au TOEIC en 2009 ; stage 6 mois aux États-Unis en 2010), Italien (niveau moyen ; stage 3 mois en Italie en 2009)</desc>
-    </item>
-  </section>
-  <section>
-    <title>Expérience professionnelle</title>
-    <item>
-      <title>2014-2016 : LCL (Consultant RS2i)</title>
-      <desc>Développeur au sein du département du LCL en charge du développement des socles techniques de la banque digitale (dématérialisation des documents et des processus, etc.). Arrivé comme développeur junior, progressivement devenu lead développeur et référent technique. Technologies principalement Java/Spring. Conception et réalisation d'outil d'intégration des socles digitaux avec le reste du SI et avec des partenaires extérieurs (mise à disposition d'API, batchs de réplication de données, batch de traitement de messages asynchrones...). A l'initiative de l'introduction de l'utilisation d'Apache Camel et des concepts d'Enterprise Integration Patterns (EIP).</desc>
-    </item>
-    <item>
-      <title>Depuis 2013 : RS2i</title>
-      <desc>Dévelopeur/consultant dans le domaine SOA/EAI/ESB. Pour l'Argus de la Presse, adaptation d'une solution open source de gestion de catalogue bibliothécaire (Java/JEE) et développement d'une plateforme ESB (TIBCO BusinessWorks/EMS) pour l'intégrer au reste du SI. Pour Stéria (travaillant pour Réseaux Ferrés de France), expertise technique pour le démarrage d'un projet ESB (TIBCO BusinessWorks/EMS) : mise ne place de bonnes pratiques de développement, configuration des environnements de développement, écriture de scripts de build et déploiement automatisés.</desc>
-    </item>
-  </section>
-  <section>
-    <title>Formations et certifications</title>
-    <item>
-      <title>02/2016</title>
-      <desc>Red Hat - EX421 Certificate of Expertise in Camel Development (certificat n° 160-028-999)</desc>
-    </item>
-    <item>
-      <title>05/2015</title>
-      <desc>Coursera - Principles of Reactive Programming (certificat n° 54R44UFH7K)</desc>
-    </item>
-    <item>
-      <title>12/2014</title>
-      <desc>Coursera - Programming Languages (certificat n° P42K3DB3HH)</desc>
-    </item>
-    <item>
-      <title>06/2014</title>
-      <desc>Coursera - Functional Programming Principles in Scala (certificat n° 89A4NVJN96)</desc>
-    </item>
-    <item>
-      <title>2012-2013</title>
-      <desc>AFPA Grenoble - Concepteur Développeur Informatique</desc>
-    </item>
-    <item>
-      <title>2007-2010</title>
-      <desc>ENSIACET (Toulouse) - Ingénieur chimiste</desc>
-    </item>
-  </section>
-  <section>
-    <title>Côté personnel</title>
-    <item>
-      <title>Projets open source</title>
-      <desc>Développement d'un outil de synchronisation de musique depuis iTunes, en Scala/Akka (avec ré-encodage, vérification des tags...). Objectif à terme : développer un gestionnaire de bibliothèque musicale en scala/Akka/ScalaFX/etc.</desc>
-    </item>
-    <item>
-      <title>Loisirs</title>
-      <desc>Rôliste, passionné de science-fiction et de fantasy, joueur de badminton</desc>
-    </item>
-  </section>
+    <data>
+        <name>
+            <firstname>Guillaume</firstname>
+            <lastname>Galy</lastname>
+        </name>
+        <telephone>+33 (0) 6 75 20 93 72</telephone>
+        <email smtp="guilgaly@gmail.com"/>
+        <address>
+            <street>54 rue de la Convention, Appt. 44</street>
+            <zip>94270</zip>
+            <city>Le Kremlin-Bicêtre</city>
+            <country>France</country>
+        </address>
+        <onlinepresence name="Linkedin" uri="https://fr.linkedin.com/in/guilgaly "/>
+        <onlinepresence name="Github" uri="https://github.com/guilgaly"/>
+    </data>
+    <section>
+        <title>Motivation</title>
+        <desc>Développeur passionné, je veux avant tout découvrir de nouvelles technologies et créer des systèmes informatiques robustes et fiables. Je m'intéresse tout particulièrement à la programmation fonctionnelle, au langage Scala, au reactive programming (autour d'Akka par exemple), et aux outils et techniques pour améliorer la qualité des développements (outils de build, tests automatisés, code reviews, intégration continue, etc.). J'ai déjà su progresser rapidement, en me voyant confier le lead technique sur mes derniers projets, mais je veux aller plus loin - idéalement au sein d'une petite structure travaillant en mode agile.</desc>
+    </section>
+    <section>
+        <title>Compétences principales</title>
+        <item>
+            <title>Langages</title>
+            <desc>Scala, Java, Typescript, Javascript ; SQL ; XML (XSL, XPath, XML Schema), HTML, CSS</desc>
+        </item>
+        <item>
+            <title>Frameworks et librairies</title>
+            <desc>Play! Framework, Akka/Akka Streams, Spring, Apache Camel</desc>
+        </item>
+        <item>
+            <title>Concepts</title>
+            <desc>functional programming, reactive programming, web services (REST/SOAP), Enterprise Integration Patterns (ESB/EAI), SOA</desc>
+        </item>
+        <item>
+            <title>Outils</title>
+            <desc>Intellij IDEA, Git, Github, SBT, Mill, Maven</desc>
+        </item>
+        <item>
+            <title>Langues</title>
+            <desc>Anglais (quasiment bilingue ; 990/990 au TOEIC en 2009 ; stage 6 mois aux États-Unis en 2010), Italien (niveau moyen ; stage 3 mois en Italie en 2009)</desc>
+        </item>
+    </section>
+    <section>
+        <title>Expérience professionnelle</title>
+        <item>
+            <title>2017-Aujourd'hui : Zengularity (maintenant Fabernovel) pour BNP Paribas</title>
+            <desc>Développeur lead backend. Création d’une application web d’onboarding des nouveaux clients entreprises, en remplacement d’un processus papier. Création du projet puis évolutions régulières (déjà 6 versions majeurs mises en production), dont l'intégration progressives avec d'autres applications (via APIs REST ou files de messages JMS) et la conception d'un système pour gérer de nombreuses variantes du processus pour les différentes filiales internationales du client et pour différents cas métiers.</desc>
+            <addendum>Technologies : Scala, Typescript, Play! Framework, Akka Streams, Oracle, IBM MQ (JMS)</addendum>
+        </item>
+        <item>
+            <title>2017 : Zengularity (maintenant Fabernovel) pour DARVA</title>
+            <desc>Dévelopeur full stack. Évolutions et correction de bugs sur Nomad, application web mise en place par DARVA pour le Syndicat National des Sociétés d’Assistance (SNSA) afin de fournir une interface unique entre les dépanneurs et les différentes sociétés d'assistance automobile en France.</desc>
+            <addendum>Technologies : Scala, Play! Framework, Javascript (ES6), MongoDB</addendum>
+        </item>
+        <item>
+            <title>2017 : IMA (Consultant RS2i)</title>
+            <desc>Développeur ESB chez Inter-Mutuelles Assistance (IMA). Évolutions et correction de bugs sur les flux d’intégration entre l’outil de gestion des missions d’assistance automobile d'IMA, et l’outil Nomad mis en place par le Syndicat National des Sociétés d’Assistance (SNSA). Développement de flux d’intégration entre une plateforme de réception eCall (appels d’urgence émis directement par les véhicules équipés) et le système de gestion des appels du call center d'IMA. </desc>
+            <addendum>Technologies : Tibco BusinessWorks, Tibco EMS, Java</addendum>
+        </item>
+        <item>
+            <title>2014-2017 : LCL (Consultant RS2i)</title>
+            <desc>Développeur, puis développeur lead, au sein du département du LCL en charge du développement des socles techniques de la banque digitale (dématérialisation des documents et des processus, etc.). Arrivé comme développeur junior, progressivement devenu lead développeur et référent technique. Technologies principalement Java/Spring. Conception et réalisation d'outil d'intégration des socles digitaux avec le reste du SI et avec des partenaires extérieurs (mise à disposition d'API, batchs de réplication de données, batch de traitement de messages asynchrones...). A l'initiative de l'introduction de l'utilisation d'Apache Camel et des concepts d'Enterprise Integration Patterns (EIP).</desc>
+            <addendum>Technologies : Java 6, Spring Framework, JSP, Oracle, Apache Camel, IBM MQ</addendum>
+        </item>
+        <item>
+            <title>2013-2014 : RS2i</title>
+            <desc>Dévelopeur/consultant dans le domaine SOA/EAI/ESB. Pour l'Argus de la Presse, adaptation d'une solution open source de gestion de catalogue bibliothécaire (Java/JEE) et développement d'une plateforme ESB (TIBCO BusinessWorks/EMS) pour l'intégrer au reste du SI. Pour Stéria (travaillant pour Réseaux Ferrés de France), expertise technique pour le démarrage d'un projet ESB (TIBCO BusinessWorks/EMS) : mise ne place de bonnes pratiques de développement, configuration des environnements de développement, écriture de scripts de build et déploiement automatisés.</desc>
+            <addendum>Technologies : Tibco BusinessWorks, Tibco EMS, Java 6/7, Java EE, JSP, Javascript, Shell</addendum>
+        </item>
+    </section>
+    <section>
+        <title>Formations et certifications</title>
+        <item>
+            <title>02/2016</title>
+            <desc>Red Hat - EX421 Certificate of Expertise in Camel Development (certificat n° 160-028-999)</desc>
+        </item>
+        <item>
+            <title>05/2015</title>
+            <desc>Coursera - Principles of Reactive Programming (certificat n° 54R44UFH7K)</desc>
+        </item>
+        <item>
+            <title>12/2014</title>
+            <desc>Coursera - Programming Languages (certificat n° P42K3DB3HH)</desc>
+        </item>
+        <item>
+            <title>06/2014</title>
+            <desc>Coursera - Functional Programming Principles in Scala (certificat n° 89A4NVJN96)</desc>
+        </item>
+        <item>
+            <title>2012-2013</title>
+            <desc>AFPA Grenoble - Concepteur Développeur Informatique</desc>
+        </item>
+        <item>
+            <title>2007-2010</title>
+            <desc>ENSIACET (Toulouse) - Ingénieur chimiste</desc>
+        </item>
+    </section>
+    <section>
+        <title>Côté personnel</title>
+        <item>
+            <title>Projets open source</title>
+            <desc>Développement d'un outil de synchronisation de musique depuis iTunes, en Scala/Akka (avec ré-encodage, vérification des tags...). Objectif à terme : développer un gestionnaire de bibliothèque musicale en scala/Akka/ScalaFX/etc.</desc>
+        </item>
+        <item>
+            <title>Loisirs</title>
+            <desc>Rôliste, passionné de science-fiction et de fantasy, joueur de badminton</desc>
+        </item>
+    </section>
 </cv>
